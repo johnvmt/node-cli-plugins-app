@@ -1,0 +1,21 @@
+{
+  "name": "cli-plugins-app",
+  "version": "0.0.1",
+  "description": "CLI app with user-defined plugins from a folder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnvmt/node-cli-plugins-app"
+  },
+  "author": {
+    "name": "John Murphy-Teixidor",
+    "email": "johnvmt@gmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "main": "src/startCliPluginsApp.js",
+  "dependencies": {
+    "cli-app-startup": "^0.0.2",
+    "glob": "^8.0.3"
+  }
+}
